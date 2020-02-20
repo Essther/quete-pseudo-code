@@ -15,8 +15,8 @@ Afficher
 
 Lire nombreUtilisateur
 
-Afficher
-	Bienvenue à la Wild
-Autant de fois que (nombreUtilisateur)
+Répéter
+	"Bienvenue à la Wild"
+Jusqu'à nombreUtilisateur
 
 FIN
