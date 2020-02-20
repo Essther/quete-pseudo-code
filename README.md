@@ -5,16 +5,18 @@ ALGORITHME Bienvenue_a_la_wild
 
 // Ce programme demandera à l’utilisateur un nombre. Il devra ensuite retourner le texte « Bienvenue à la wild » autant de fois que le nombre saisi. 
 
-ident_variable : nombreUtilisateur
+Variable :
+	nombreUtilisateur
 
 DEBUT
 
 Afficher 
 	"Entrez un nombre"
 
-Demander nombreUtilisateur
+Lire nombreUtilisateur
 
-Afficher (nombreUtilisateur)
-  Bienvenue à la Wild
+Afficher
+	Bienvenue à la Wild
+Autant de fois que (nombreUtilisateur)
 
 FIN
